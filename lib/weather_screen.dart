@@ -36,7 +36,7 @@ class _WeatherAppState extends State<WeatherApp> {
       hasError = false;
     });
 
-    const apiKey = "Use Your Api Key";
+    const apiKey = "b1cedb626d1bcd73378e43238f3bd007";
     final city = _cityController.text.trim();
 
     final url = Uri.parse(
